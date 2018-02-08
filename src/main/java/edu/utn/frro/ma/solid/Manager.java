@@ -3,17 +3,17 @@ package edu.utn.frro.ma.solid;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class Company {
+public class Manager {
 
-	private Worker[] workers;
+	private Workable[] workers;
 	
-	public Company(Worker... workers) {
+	public Manager(Workable... workers) {
 		this.workers=workers;
 	}
 	
 	public void makeMoney() {
 		System.out.println("### Making this company great! ###");
-		for (Worker worker : workers) {
+		for (Workable worker : workers) {
 			System.out.println(worker.work());
 		}
 		System.out.println("### Take a break of work. ###");

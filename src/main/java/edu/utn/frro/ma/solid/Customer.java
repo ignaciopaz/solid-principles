@@ -1,6 +1,6 @@
 package edu.utn.frro.ma.solid;
 
-public class Customer implements Diner {
+public class Customer implements Feedable {
 
 	private String creditCard;
 

@@ -1,6 +1,6 @@
 package edu.utn.frro.ma.solid;
 
-public class SuperWorker implements Worker, Diner {
+public class SuperWorker implements Workable, Feedable {
 
 	public String work() {
 		return "I am working real fast and I am super efficient. I am like " + this.toString();

@@ -4,7 +4,6 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		
 		SuperWorker s1 = new SuperWorker();
 		SuperWorker s2 = new SuperWorker();
 		SuperWorker s3 = new SuperWorker();
@@ -21,7 +20,7 @@ public class Main {
 		Customer c2 = new Customer("5678");
 		Customer c3 = new Customer("9012");
 		
-		Company company = new Company(r1, s1, sw1, sw5, r4, sw2, r2, s2, r3, sw3, s3, sw4);
+		Manager company = new Manager(r1, s1, sw1, sw5, r4, sw2, r2, s2, r3, sw3, s3, sw4);
 		Restaurant restaurant = new Restaurant(c1, s1, sw1, sw2, c2, s2, c3, sw3, s3, sw4, sw5);
 		
 		company.makeMoney();

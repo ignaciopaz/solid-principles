@@ -5,17 +5,17 @@ import java.util.Collection;
 
 public class Restaurant {
 
-	private Diner[] diners;
+	private Feedable[] feedables;
 	
 	public void serveFood() {
 		System.out.println("### Serving delicious food! ###");
-		for (Diner diner : diners) {
-			System.out.println(diner.eat());
+		for (Feedable feedable : feedables) {
+			System.out.println(feedable.eat());
 		}
 	}
 	
-	public Restaurant(Diner... diners) {
-		this.diners=diners;
+	public Restaurant(Feedable... feedables) {
+		this.feedables=feedables;
 	}
 	
 }

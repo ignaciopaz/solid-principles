@@ -1,6 +1,6 @@
 package edu.utn.frro.ma.solid;
 
-public class StandardWorker implements Worker, Diner {
+public class StandardWorker implements Workable, Feedable {
 
 	private String name;
 
