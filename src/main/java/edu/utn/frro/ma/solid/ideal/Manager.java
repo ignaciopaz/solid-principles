@@ -19,6 +19,10 @@ public class Manager implements Workable {
 		}
 		System.out.println("### Take a break of work. ###");
 		return "good job";
+	}
+
+	public Workable[] getWorkers() {
+		return workers;
 	}	
 	
 }
