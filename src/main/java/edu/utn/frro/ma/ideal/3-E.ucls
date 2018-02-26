@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="JPEG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="edu.utn.frro.ma.ideal.A" project="solid" 
+    file="/solid2/src/main/java/edu/utn/frro/ma/ideal/A.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="267" y="72"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="true" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="edu.utn.frro.ma.ideal.B" project="solid2" 
+    file="/solid2/src/main/java/edu/utn/frro/ma/ideal/B.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="533" y="72"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="true" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="false" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
