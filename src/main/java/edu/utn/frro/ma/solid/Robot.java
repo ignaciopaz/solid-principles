@@ -1,6 +1,6 @@
 package edu.utn.frro.ma.solid;
 
-public class Robot implements Workable{
+public class Robot implements Workable {
 
 	private Integer unitNumber;
 	public Robot(Integer unitNumber) {

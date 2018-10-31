@@ -1,11 +1,10 @@
 package edu.utn.frro.ma.solid;
 
-import java.util.ArrayList;
 import java.util.Collection;
 
 public class Restaurant {
 
-	private Feedable[] feedables;
+	private Collection<Feedable> feedables;
 	
 	public void serveFood() {
 		System.out.println("### Serving delicious food! ###");
@@ -13,9 +12,9 @@ public class Restaurant {
 			System.out.println(feedable.eat());
 		}
 	}
-	
-	public Restaurant(Feedable... feedables) {
-		this.feedables=feedables;
+
+	public Restaurant(Collection<Feedable> feedables) {
+		this.feedables = feedables;
 	}
 	
 }
